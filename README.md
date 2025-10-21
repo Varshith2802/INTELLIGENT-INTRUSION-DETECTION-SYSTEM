@@ -1,6 +1,20 @@
 # Real-Time Intrusion Detection System (IDS)
 
 A production‑grade, **real-time intrusion detection system** that automatically captures live network traffic, extracts streaming features, and predicts attack risk using a **multi-model ensemble**. The project is designed to be **portable**, **extensible**, and **easy to operate** across Windows, Linux, and macOS.
+---
+
+## UI Screenshots
+
+> Put the images in an `images/` folder (or adjust the paths).
+
+### Main Dashboard
+![IDS — Main Dashboard](images/ids-main-dashboard-135400.png)
+
+### Intrusion Detection Dialog (Result)
+![IDS — Detection Dialog](images/ids-detection-dialog-135415.png)
+
+### Accuracy Comparison (SVM, RF, DNN)
+![IDS — Accuracy Graph](images/ids-accuracy-graph-135433.png)
 
 ---
 
@@ -191,74 +205,6 @@ The UI communicates with the backend via REST and a WebSocket stream.
 
 ---
 
-## 📂 Repository Layout
-
-```
-ids-major/
-  README.md
-  LICENSE
-  CHANGELOG.md
-  CITATION.cff
-  requirements.txt
-  pyproject.toml
-  mypy.ini
-  .pre-commit-config.yaml
-  .gitignore
-  docker-compose.yml
-  Makefile
-
-  backend/
-    app.py
-    settings.py
-    logging.conf
-    utils/
-      ensemble.py
-      features.py
-      iface.py
-      security.py
-    models/
-      artifacts/
-
-  scripts/
-    prepare_datasets.py
-    train_multimodel.py
-    run_windows.ps1
-    run_unix.sh
-
-  tests/
-    test_prepare.py
-    test_ensemble.py
-    test_offline_api.py
-
-  docs/
-    conf.py
-    index.rst
-    architecture.rst
-
-  frontend/
-    index.html
-    package.json
-    vite.config.js
-    postcss.config.js
-    tailwind.config.js
-    .env.example
-    src/
-      main.jsx
-      App.jsx
-      styles.css
-      components/
-        StatusBar.jsx
-        LiveView.jsx
-        OfflineView.jsx
-        ModelsView.jsx
-        RiskChart.jsx
-
-  data/
-  notebooks/
-    EDA.ipynb
-```
-
----
 
 ## ⚙️ Configuration (Selected)
 
