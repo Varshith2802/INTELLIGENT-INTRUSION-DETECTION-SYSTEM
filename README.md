@@ -8,13 +8,13 @@ A production‑grade, **real-time intrusion detection system** that automaticall
 > Put the images in an `images/` folder (or adjust the paths).
 
 ### Main Dashboard
-![IDS — Main Dashboard](images/ids-main-dashboard-135400.png)
+![IDS — Main Dashboard](images/Screenshot 2025-11-20 191353.png)
 
 ### Intrusion Detection Dialog (Result)
-![IDS — Detection Dialog](images/ids-detection-dialog-135415.png)
+![IDS — Detection Dialog](images/Screenshot 2025-11-20 191431.png)
 
 ### Accuracy Comparison (SVM, RF, DNN)
-![IDS — Accuracy Graph](images/ids-accuracy-graph-135433.png)
+![IDS — Accuracy Graph](images/Screenshot 2025-11-20 191452.png)
 
 ---
 
